@@ -33,7 +33,7 @@ function switchTheme() {
     content.style.opacity = 1;
   }, 400);
 }
-
+    
 // Load sun theme first
 background.style.backgroundImage = "url('./assets/sun.gif')";
 toggleBtn.addEventListener("click", switchTheme);
