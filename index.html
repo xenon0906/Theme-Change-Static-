@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="day">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surya & Chandra</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap" rel="stylesheet" />
 </head>
 <body>
-    
+  <div class="background" id="background"></div>
+
+  <div class="content-wrapper" id="content-wrapper">
+    <div class="image-box">
+      <img id="theme-image" src="./assets/sun.jpg" alt="Theme Image" />
+    </div>
+    <div class="text-box" id="text-box">
+      <h1 id="theme-heading">Surya: Illuminator of Dharma ☀️</h1>
+      <p id="theme-text">
+        Surya, the Sun God in Indian philosophy, is the embodiment of energy, discipline, and truth. He is the divine observer of all action (<em>Deva Chakshu</em>), guiding through time and season. His presence encourages growth, intellect, and spiritual awakening. Surya Namaskar is a daily ritual to honor his light.
+      </p>
+    </div>
+  </div>
+
+  <button id="theme-toggle">Switch to 🌙</button>
+  <script src="script.js"></script>
 </body>
 </html>
